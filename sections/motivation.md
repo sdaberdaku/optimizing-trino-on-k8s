@@ -28,5 +28,5 @@ We use Terraform to manage S3 buckets, Glue Databases, Airflow deployments, Data
 
 At Cardo AI, we are running a Trino cluster on AWS EKS which is mainly used by our structured finance SaaS suite for running analytical queries on pre-aggregated data. The queries are generally short-lived, and used in real time to populate our frontend applications.
 
-Many of the presented features were first developed in our fork of the official chart I had made some time ago. 
-but it was becoming a pain keeping the chart up to date with the new versions of trino so I thought it would be best to "donate" these changes and make it easier to upgrade.
+We initially deployed Trino on EKS using our own fork of the Helm Chart, where several of the features that we are going to present were initially developed.
+Trino development and releases are very fast-paced, and maintaining our fork up to date was becoming quite time consuming thus I decided to "donate" these changes to the community-maintained Chart.

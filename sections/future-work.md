@@ -1,6 +1,6 @@
 ### Future work: 
 Worker Autoscaling with KEDA
-* The JMX Export and Worker graceful shutdown can be used to implement advanced worker autoscaling.
+* The JMX Export, fault-tolerant query execution, and worker graceful shutdown can be used to implement advanced worker autoscaling.
 
 <div style="font-size: 20px;">
 

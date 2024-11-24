@@ -5,6 +5,11 @@
     2. Is it robust (with respect to edge cases)? 
     3. Is it easy to use?
 
+-notes
+Trino configuration can be quite complex, and it is important that the Helm Chart does not simply end up adding another layer of complexity. 
+
+Automated testing is an important aspect to consider when developing new features for the Helm Chart, since it is the only way to ensure correctness even in edge cases. 
+
 -vertical
 
 ### Test framework
