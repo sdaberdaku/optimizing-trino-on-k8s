@@ -23,10 +23,13 @@ I am currently the Data Engineering Tech Lead of Cardo AI, a global structured f
 My expertise lies in building and managing data platform infrastructures with technologies such as TrinoDB, Spark, Airflow, Databricks, and the related cloud architecture with Terraform. 
 
 -vertical
-
-## About the speakers
+![](./../assets/Jan_Was.jpg)  <!-- .element width="15%" style="float: none;" title="Jan Wa&sacute;" -->
 
 ### Jan Wa&sacute;
+
+Software Engineer
+
+![](./../assets/starburst_logo.png)  <!-- .element width="40%" style="float: none;" title="Starburst Logo" -->
 
 -notes 
 
