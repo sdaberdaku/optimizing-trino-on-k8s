@@ -36,7 +36,7 @@ NetworkPolicies can be very helpful in these situations, since they can provide 
 
 ##### TLS-terminated ALB with `NetworkPolicy` protection
 
-![](./../assets/trino-network-policy.drawio.png)  <!-- .element width="70%" style="float: none; background-color: white; border: 5px solid white;" title="Trino NetworkPolicy" -->
+![](assets/trino-network-policy.drawio.png)  <!-- .element width="70%" style="float: none; background-color: white; border: 5px solid white;" title="Trino NetworkPolicy" -->
 
 -vertical
 
