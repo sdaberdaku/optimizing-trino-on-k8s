@@ -11,7 +11,7 @@ The first contribution to the Helm Chart I am going to present is rendering the 
 
 Although useful, users might still want to disable these catalogs after they are done experimenting and fine-tuning their cluster.
 
-Moreover, having default catalogs automatically mounted from a configmap conflicts with the Dynamic Catalog creation feature which allows users to create catalogs at runtime without havint to restart the Trino Cluster.
+Moreover, having default catalogs automatically mounted from a configmap conflicts with the Dynamic Catalog creation feature which allows users to create catalogs at runtime without having to restart the Trino Cluster.
 
 -vertical
 
