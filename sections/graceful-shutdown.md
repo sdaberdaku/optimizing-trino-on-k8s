@@ -1,8 +1,8 @@
 ### Worker graceful shutdown
-* Trino has a graceful shutdown API that can be used exclusively on workers in order to ensure that they terminate without affecting running queries, given a sufficient grace period.
+* Trino has a graceful shutdown API that can be used on workers in order to ensure that they terminate without affecting running queries, given a sufficient grace period.
 * Once the API is called, the worker performs the following steps:
     1. Go into `SHUTTING_DOWN` state.
-    2. Sleep for shutdown.grace-period. After this, the coordinator is aware of the shutdown and stops sending tasks to the worker.
+    2. Sleep for `shutdown.grace-period`. After this, the coordinator is aware of the shutdown and stops sending tasks to the worker.
     3. Block until all active tasks are complete.
     4. Sleep for the grace period again in order to ensure the coordinator sees all tasks are complete.
     5. Shutdown the application.
@@ -14,7 +14,7 @@
 * Add a preStop lifecycle event to all worker Pods;
 * Configures the `shutdown.grace-period` property;
 * Configure the workers' `accessControl` since the default system access control does not allow graceful shutdowns;
-* Validate the `worker.terminationGracePeriodSeconds` value (which must be at x2 `shutdown.grace-period`);
+* Validate the `worker.terminationGracePeriodSeconds` value (which must be at least 2 &times; `shutdown.grace-period`);
 * Ensure that `worker.lifecycle` is not set.
 
 -vertical

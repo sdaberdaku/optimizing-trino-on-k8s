@@ -9,7 +9,7 @@ We are currently using Delta Lake on top of AWS S3, with AWS Glue as metastore.
 
 We manage our data ingestion workflows with Apache Airflow pipelines powered by Spark or with databricks, and build our analytics on top of the Delta Lake using TrinoDB and Apache Superset. 
 
-All these components are managed through Terraform. 
+All these components are managed with Terraform and ArgoCD. 
 
 We use Terraform to manage S3 buckets, Glue Databases, Airflow deployments, Databricks workspaces and clusters, IAM policies and roles, and also TrinoDB credentials.
 
