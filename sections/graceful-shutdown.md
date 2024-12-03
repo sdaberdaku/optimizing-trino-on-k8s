@@ -21,13 +21,13 @@
 
 #### Cost-effective deployment with worker graceful shutdown
 
-![](./../assets/trino-spot-workers.drawio.png)  <!-- .element width="80%" style="float: none; background-color: white; border: 5px solid white;" title="Trino Spot Workers" -->
+![](../assets/trino-spot-workers.drawio.png)  <!-- .element width="80%" style="float: none; background-color: white; border: 5px solid white;" title="Trino Spot Workers" -->
 
 -vertical
 
 #### Autoscaling with worker graceful shutdown
 
-![](./../assets/trino-hpa-workers.drawio.png)  <!-- .element width="60%" style="float: none; background-color: white; border: 5px solid white;" title="Trino HPA Workers" -->
+![](../assets/trino-hpa-workers.drawio.png)  <!-- .element width="60%" style="float: none; background-color: white; border: 5px solid white;" title="Trino HPA Workers" -->
 
 -vertical
 

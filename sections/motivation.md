@@ -1,5 +1,5 @@
 ### Lakehouse tech-stack @ Cardo AI
-![](./../assets/data-lakehouse.png)  <!-- .element width="100%" style="float: none; background-color: white; border: 10px solid white;" title="Lakehouse" -->
+![](../assets/data-lakehouse.png)  <!-- .element width="100%" style="float: none; background-color: white; border: 10px solid white;" title="Lakehouse" -->
 
 -notes
 

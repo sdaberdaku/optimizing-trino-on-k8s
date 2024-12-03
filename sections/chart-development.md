@@ -17,7 +17,7 @@ helm install my-trino trino/trino --version 0.34.0
 
 https://trinodb.github.io/charts/
 
-![](./../assets/chart-docs.png)  <!-- .element width="80%" style="float: none; background-color: white; border: 5px solid white;" title="Chart documentation" -->
+![](../assets/chart-docs.png)  <!-- .element width="80%" style="float: none; background-color: white; border: 5px solid white;" title="Chart documentation" -->
 
 -vertical
 
