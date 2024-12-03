@@ -1,5 +1,7 @@
 # Optimizing Trino on Kubernetes presentation
 
+The presentation is available at [https://sebastiandaberdaku.github.io/optimizing-trino-on-k8s/](https://sebastiandaberdaku.github.io/optimizing-trino-on-k8s/).
+
 ## Presenting
 
 Run a local webserver with the `runLocalServer.sh` script, and navigate to
