@@ -1,6 +1,6 @@
 # Optimizing Trino on Kubernetes presentation
 
-The presentation is available at [https://sebastiandaberdaku.github.io/optimizing-trino-on-k8s/](https://sebastiandaberdaku.github.io/optimizing-trino-on-k8s/).
+The presentation is available at [https://sdaberdaku.github.io/optimizing-trino-on-k8s/](https://sdaberdaku.github.io/optimizing-trino-on-k8s/).
 
 ## Presenting
 
